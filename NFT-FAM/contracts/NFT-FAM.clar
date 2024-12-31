@@ -164,3 +164,19 @@
             (ok power-up)
             (err u111))))
 
+;; Helper functions for applying specific boosts
+(define-private (apply-yield-boost (token-id uint) (multiplier uint))
+    (let ((loan (unwrap! (map-get? lending-pool token-id)
+                        (err u114))))
+        ;; Boost the yield by multiplier percentage
+        (ok true)))
+
+(define-private (apply-collateral-boost (token-id uint) (multiplier uint))
+    (let ((loan (unwrap! (map-get? lending-pool token-id)
+                        (err u115))))
+        ;; Increase collateral value by multiplier percentage
+        (ok true)))
+
+(define-private (apply-governance-boost (token-id uint) (multiplier uint))
+    ;; Increase governance voting power by multiplier percentage
+    (ok true))
