@@ -1,4 +1,4 @@
-# NFT-Based Financial Asset Management Smart Contract
+# NFT-Based Financial Asset Management Smart Contract (NFT-FAM)
 
 A comprehensive smart contract system for tokenizing real-world assets, managing fractional ownership, and enabling collateralized lending against NFT holdings. This contract implements advanced features including time-locked power-ups for NFT enhancement.
 
